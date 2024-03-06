@@ -25,8 +25,8 @@ document
 // Image hover effect
 var image = document.getElementById("image");
 image.addEventListener("mouseover", function () {
-  image.src = "new_image.jpg";
+  image.src = "/assets/female-avatar.jpg";
 });
 image.addEventListener("mouseout", function () {
-  image.src = "female-avatar.jpg";
+  image.src = "/assets/male-avatar.jpg";
 });
